@@ -1,3 +1,3 @@
 # Variables, Expressions & Statements
 
-hrs = float(input("Enter hours? "))
+print((hrs:=float(input("Hrs ")))*(rph:=float(input("Rph "))))
