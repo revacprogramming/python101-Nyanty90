@@ -1,12 +1,11 @@
-
-
 def add(a, b):
-    return  # ...
+    return a + b
 
 
 def main():
-    a = input  # ...
-    b = input  # ...
+    c = add((a := int(input("Num1 "))), (b := int(input("Num2 "))))
+    print(c)
 
-    c = add(a, b)
-    print  # ...
+
+if __name__ == '__main__':
+    main()

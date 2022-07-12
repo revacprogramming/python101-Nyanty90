@@ -1,18 +1,14 @@
-
-
 def get_cs():
-    """get string input"""
+    return input("Enter connected string: ")
 
 
 def cs_to_lot(cs):
-    """convert connected string to list of strings"""
+    return cs.split("-")
 
 
 def main():
     cs = get_cs()
-
-    lot = cs_to_lot(cs)
-    print(lot)
+    print((lot := cs_to_lot(cs)))
 
 
 if __name__ == '__main__':
