@@ -3,7 +3,7 @@
     {
       "name": "ActivitySet&#35;2.py",      
       "setup": "",
-      "run": "python3 ActivitySet#1/problem#02.py",
+      "run": "python3 ActivitySet#1/2.py",
       "input": "",
       "output": "^[Hh]ello [Ww]orld.*",
       "comparison": "regex",
