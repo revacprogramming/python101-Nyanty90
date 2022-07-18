@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "ActivitySet&#35;1_problem&#35;02.py",
+      "name": "ActivitySet&#35;2.py",      
       "setup": "",
       "run": "python3 ActivitySet#1/problem#02.py",
       "input": "",
