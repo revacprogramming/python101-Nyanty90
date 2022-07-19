@@ -25,7 +25,6 @@ tags = soup('a')
 cnt = int(input("Count: "))
 pos = int(input("Position: "))
 
-# Find the link at position 18 (the first name is 1). Follow that link. Repeat this process 7 times. The answer is the last name that you retrieve.
 for i in range(cnt):
     link = tags[pos-1].get('href', None)
     print(tags[pos-1].contents[0])
